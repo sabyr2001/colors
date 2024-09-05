@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ошту</title>
+</head>
+<style>
+	.container{
+	position: relative;
+	left: 13%;
+	bottom: 15px;
+	width: 1100px;
+	height: 1050px;
+	background: white;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+	h1{
+		position: relative;
+		left: 13%;
+		font-family: arial;
+		width: 600px;
+	}
+	.ostu{
+		position: relative;
+		left: 13%;
+		bottom: 15px;
+		font-family: arial;
+		width: 600px;
+	}
+	header{
+		width: 1102px;
+		height: 50px;
+		background: #636f83;
+		position: relative;
+		left: 13%;
+		bottom: 15px;
+	}
+	.select-1{
+		height: 35px;
+		padding: 3px;
+		position: relative;
+		top: 7px;
+		left: 14px;
+		background-color: #708090;
+		color: white;
+		border:#708090 ;
+		border-radius: 5px;
+		font-size: ;
+	}
+	.select-1:hover{
+		background-color: #4682B4;
+		border: #4682B4;
+	}
+	
+	.white{
+		background-color: white;
+		color: gray;
+		font-size: 15px;
+		padding: 10px;
+	}
+	h2{
+		position: relative;
+		left: 15px;
+		font-family: arial;
+	}
+	.semestr{
+		position: relative;
+		left: 15px;
+		color: gray;
+	}
+	.select-2{
+		width: 415px;
+		position: relative;
+		left: 15px;
+		height: 35px;
+		border-radius: 5px;
+		color: gray;
+		border-color:#dddddd ;
+	}
+	.facultet{
+		float: right;
+		position: relative;
+		right: 600px;
+		color: gray;
+	}
+	.select-3{
+		float: right;
+		position: relative;
+		right: 15px;
+		width: 640px;
+		height: 35px;
+		border-radius: 5px;
+		color: gray;
+		border-color:#dddddd ;
+
+	}
+	.curs{
+		position: relative;
+		left: 15px;
+		color: gray;
+	}
+	.select-4{
+		width: 415px;
+		position: relative;
+		left: 15px;
+		height: 35px;
+		border-radius: 5px;
+		color: gray;
+		border-color:#dddddd ;
+	}
+	.group{
+		float: right;
+		position: relative;
+		right: 620px;
+		color: gray;
+
+	}
+	.select-5{
+		float: right;
+		position: relative;
+		right: 15px;
+		width: 640px;
+		height: 35px;
+		border-radius: 5px;
+		color: gray;
+		border-color:#dddddd ;
+	}
+	#table {
+	border: 1px solid #dddddd;
+	border-collapse: collapse;
+	width: 97%;
+	position: relative;
+	top: 15px;
+	left: 15px;
+	
+
+}
+#table th {
+	font-weight: bold;
+	padding: 7px;
+	background: ;
+	border: 1px solid #dddddd;
+	text-align: center;
+	vertical-align: middle;
+	font-family: arial;
+}
+#table td {
+	border: 1px solid #dddddd;
+	vertical-align: middle;
+	padding-top:5px ;
+	color: gray;
+	font-family: ;
+	font-size: 15px;
+}
+.p1-1{
+	padding-right:0 ;
+}
+.a1{
+	text-align: center;
+}
+.a2{
+	background-color: #efefef;
+}
+
+
+
+
+</style>
+<body style="background: #efefef;">
+	<h1>Расписание занятий</h1>					
+	<p class="ostu">Ош технологиялык университет им.академика М.М.Адышева</p>
+	<header>
+				<select class="select-1">
+					<option class="white">Раписание</option>
+					<option class="white">Раписание</option>
+					<option class="white">Раписание</option>
+				</select>
+				<select class="select-1">
+					<option class="white">Графика зачетов и экзаменов</option>
+					<option class="white">Раписание</option>
+					<option class="white">Раписание</option>
+				</select>
+				<select class="select-1">
+					<option class="white">График ЛАЗ</option>
+					<option class="white">Раписание</option>
+					<option class="white">Раписание</option>
+				</select>
+			</header>
+	<div class="container">
+			
+			<h2>Расписание по группе </h2>
+			<p class="semestr">Семестр<span class="facultet">Факультет</span></p>
+			<select class="select-2">
+				<option class="">Осенний</option>
+				<option class="">Весенний</option>
+			</select>
+			
+			<select class="select-3">
+				<option class="">Гуманитарно-технологический колледж ОшТУ</option>
+				<option class="">Осенний</option>
+				<option class="">Весенний</option>
+			</select>
+			<p class="curs">Курс<span class="group">Группа</span></p>
+			<select class="select-4">
+				<option class="">3 курс</option>
+				<option class="">Осенний</option>
+				<option class="">Осенний</option>
+			</select>
+
+			<select class="select-5">
+				<option class="">ПКС-1-21(9)</option>
+				<option class="">Осенний</option>
+				<option class="">Весенний</option>
+			</select>
+			<table id="table">
+				<thead>
+					<tr>
+						<th>Пары</th>
+						<th>ПНД</th>
+						<th>ВТН</th>
+						<th>СРД</th>
+						<th>ЧТВ</th>
+						<th>ПТН</th>
+						<th>СБТ</th>
+					</tr>
+					<tr>
+						<td class="a2" style="width:30px; text-align: center;">1</td>
+						<td class="a2" style="width:185px;">Электротехника, <br> электроника и<br> схемотехника(пр.) <br>Нурмаматов А.Т. [3/301]</td>
+						<td class="a2" style="width:170px;">Прогр. в среде Matlab<br>и Maple (пр.)<br>Алдосова А.Ж. [Библиотека/12]</td>
+						<td class="a2"></td>
+						<td class="a2"></td>
+						<td class="a2"></td>
+						<td class="a2"></td>
+
+					</tr>
+					<tr>
+						<td class="a1">2</td>
+						<td>Базы данных (лк.)<br>Аттокурова З.М. [2/222]</td>
+						<td>Прогр. в среде Delphi (лк.)<br>Кудаяров Н.Ш. [Библиотека/12]<br><hr> Прогр. в среде Matlab<br> и Maple (лк.)<br>Алдосова А.Ж. [Библиотека/12]</td>
+						<td></td>
+						<td></td>
+						<td style="width:160px;">	Прогр. на языке С++ <br>s (пр.) <br>Мукамидин кызы Н. <br> [2/115]</td>
+						<td></td>
+
+					</tr>
+					<tr>
+						<td class="a2" style="text-align: center;">3</td>
+						<td class="a2">Базы данных (пр.) <br>Аттокурова З.М. [1/<br>Библиотека каб. 101]</td>
+						<td class="a2">Прогр. в среде Delphi <br> (пр.) <br> Кудаяров Н.Ш. [Библиотека/12]</td>
+						<td class="a2" style="width:185px;">Физическое воспитание <br> (пр.) <br>Омурбек кызы А. [2/<br>Сп.зал4]</td>
+						<td class="a2" style="width:185px">Разраб. и экспл. удал. баз <br> данных (лк.)<br>Турдукулов С.Ө. [2/202]<hr></td>
+						<td class="a2">Прогр. на языке С++ <br>(лк.)<br>Мукамидин кызы Н.<br> [2/222] <hr>Прогр. в среде Visual Studio .NET<br> (лк.)<br>Талантбек уулу Т.<br> [1/504]</td>
+						<td class="a2"></td>
+
+					</tr>
+					<tr>
+						<td class="a1">4</td>
+						<td>WEB-ориентированные информационные системы <br>(лк.)<br>Ташибеков Т.Ч. [1/504]</td>
+						<td></td>
+						<td>Прогр. в среде Visual <br> Studio.NET (пр.)<br>Талантбек уулу Т. [1/407б]</td>
+						<td>Разраб. и экспл. удал. баз<br> данных (пр.)<br>Турдукулов С.Ө.[3/214б]</td>
+						<td></td>
+						<td></td>
+
+					</tr>
+					<tr>
+						<td class="a2" style="text-align:center;">5</td>
+						<td class="a2"></td>
+						<td class="a2"></td>
+						<td class="a2">WEB-ориентированные информационные системы (пр.)<br>Ташибеков Т.Ч. [1/502]</td>
+						<td class="a2">Электротехника,<br> электроника и<br> схемотехника(лк.)<br>Нурмаматов А.Т. [3/308]</td>
+						<td class="a2"></td>
+						<td class="a2"></td>
+
+					</tr>
+					<tr>
+						
+
+					</tr>
+				</thead>
+				<tbody>
+					
+				</tbody>
+			</table>
+	</div>
+
+</body>
+</html>
